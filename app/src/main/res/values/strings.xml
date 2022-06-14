@@ -1,0 +1,19 @@
+<resources>
+    <string name="library_name">RiderLogLibrary</string>
+
+    <string name="running_service_title">라이더로그</string>
+    <string name="running_service_message">라이더로그 서비스가 실행 중입니다</string>
+
+    <!-- E Call -->
+    <string name="e_call_title">사고 감지</string>
+    <string name="e_call_content">사고를 감지했습니다.\n사고가 아니라면 아래 버튼을 \n90초 이내에 눌러주세요</string>
+    <string name="e_call_not_accident">사고 미 발생</string>
+
+    <!-- Location -->
+    <string name="not_set_location">위치 권한이 없으면 위치 정보를 가져올 수 없습니다</string>
+
+    <!-- Sensor -->
+    <string name="sensor_re_scan_for_a_while">잠시 후 다시 스캔 해 주세요</string>
+    <string name="response_from_sensor_origin_cali_success">원점 보정 완료</string>
+    <string name="response_from_sensor_origin_cali_fail">원점 보정 실패</string>
+</resources>

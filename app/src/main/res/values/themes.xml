@@ -1,0 +1,18 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.RiderLogLibrary" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/rl_base_color</item>
+        <item name="colorPrimaryVariant">@color/rl_status</item>
+        <item name="colorOnPrimary">@color/white</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/rl_cmpl_color</item>
+        <item name="colorSecondaryVariant">@color/rl_cmpl_color_light</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <!-- background -->
+        <item name="android:windowBackground">@color/white</item>
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" >?attr/colorPrimaryVariant</item>
+        <!-- Customize your theme here. -->
+    </style>
+</resources>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="library_name">RiderLogLibrary</string>
+
+    <string name="running_service_title">RIDER LOG</string>
+    <string name="running_service_message">RIDER LOG service is running</string>
+
+    <!-- E Call -->
+    <string name="e_call_title">Sensor detected an accident</string>
+    <string name="e_call_content">Sensor detected an accident\nIf it\'s not an accident, press the button below \nwithin 90 seconds</string>
+    <string name="e_call_not_accident">No accidents</string>
+
+    <!-- Location -->
+    <string name="not_set_location">Location information cannot be obtained without location permission</string>
+
+    <!-- Sensor -->
+    <string name="sensor_re_scan_for_a_while">Please scan it again in a little while</string>
+    <string name="response_from_sensor_origin_cali_success">Completed device position calibrating</string>
+    <string name="response_from_sensor_origin_cali_fail">Failed device position calibrating</string>
+</resources>
