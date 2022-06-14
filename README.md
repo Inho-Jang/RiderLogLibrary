@@ -2,7 +2,7 @@
 Rider Log Service 모듈 배포 작업(테스트)
 
 ### Jitpack을 이용해 라이더로그 라이브러리 모듈을 implementation한다
-   1. build.gradle에 maven jitpack repository 추가
+   1. build.gradle에 jitpack repository 추가
        ```
        allprojects {
            repositories {
