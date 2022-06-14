@@ -34,8 +34,8 @@ android {
 publishing {
     publications {
         release(MavenPublication) {
-            groupId = 'com.starpickers.riderloglibrary'
-            artifactId = 'riderlog-library'
+            groupId = 'com.github.Inho-Jang'
+            artifactId = 'RiderLogLibrary'
             version = '1.0.0'
 
             afterEvaluate {
