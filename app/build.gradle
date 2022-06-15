@@ -54,9 +54,9 @@ afterEvaluate {
                     from components.release
                 }
 
-                groupId = 'com.github.Inho-Jang.RiderLogLibrary'
+                groupId = 'com.github.Inho-Jang'
                 artifactId = 'RiderLogLibrary'
-                version = 'Test'
+                version = '1.0.0'
             }
         }
     }
