@@ -15,12 +15,6 @@ android {
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
 
-    publishing {
-        singleVariant('release') {
-            withSourcesJar()
-        }
-    }
-
     buildTypes {
         release {
             minifyEnabled false
@@ -36,10 +30,10 @@ android {
 afterEvaluate {
     publishing {
         publications {
-            mavenJava(MavenPublication) {
+            release(MavenPublication) {
                 groupId = 'com.starpickers'
                 artifactId = 'riderloglibrary'
-                version = '1.0.0'
+                version = 'TEST'
 
                 from components.release
             }
