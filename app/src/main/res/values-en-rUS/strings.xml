@@ -2,6 +2,8 @@
 <resources>
     <string name="library_name">RiderLogLibrary</string>
 
+    <string name="notification_id">RIDER LOG SERVICE</string>
+    <string name="notification_name">RLService</string>
     <string name="running_service_title">RIDER LOG</string>
     <string name="running_service_message">RIDER LOG service is running</string>
 

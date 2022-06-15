@@ -2,6 +2,8 @@
 <resources>
     <string name="library_name">RiderLogLibrary</string>
 
+    <string name="notification_id">RIDER LOG SERVICE</string>
+    <string name="notification_name">RLService</string>
     <string name="running_service_title">라이더로그</string>
     <string name="running_service_message">라이더로그 서비스가 실행 중입니다</string>
 
