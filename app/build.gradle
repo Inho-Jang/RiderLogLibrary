@@ -36,12 +36,12 @@ android {
 afterEvaluate {
     publishing {
         publications {
-            release(MavenPublication) {
-                from components.release
-
+            mavenJava(MavenPublication) {
                 groupId = 'com.starpickers'
                 artifactId = 'riderloglibrary'
                 version = '1.0.0'
+
+                from components.release
             }
         }
     }
