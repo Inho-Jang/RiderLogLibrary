@@ -54,7 +54,7 @@ import java.util.concurrent.Executors;
 
 public class RLServerService {
     // Google Firebase 설정
-    private final FirebaseFirestore firebaseFirestore = FirebaseFirestore.getInstance();
+    private final FirebaseFirestore firebaseFirestore;
     private static Socket tcpSocket;
     private static OutputStream outputStream;
 
@@ -69,6 +69,10 @@ public class RLServerService {
     private long mDownloadQueueId;
     private static File firmware;
     private static final long NUM_BYTES_NEEDED_FOR_FIRMWARE = 1024 * 1024;
+
+    public RLServerService() {
+        firebaseFirestore = FirebaseFirestore.getInstance();
+    }
 
     public void initializeServerFeature(Context context) {
         serverContext = context;
