@@ -52,7 +52,7 @@ afterEvaluate {
             release(MavenPublication) {
                 from components.release
 
-                groupId = 'com.github.Inho-Jang'
+                groupId = 'com.github.Inho-Jang.RiderLogLibrary'
                 artifactId = 'RiderLogLibrary'
                 version = 'Test'
             }
