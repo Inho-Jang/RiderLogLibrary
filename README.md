@@ -14,9 +14,10 @@ Rider Log Service 모듈 배포 작업(테스트)
    2. Dependency 추가 - 필요한 버전의 Tag를 입력
        ```
        dependencies {
-           implementation ''
+           implementation 'com.github.Inho-Jang:RiderLogLibrary:TAG'
        }
        ```
+       TAG에는 Release된 Library version을 적용
    3. Gradle sync 진행
 ### 핵심 Service인 RLGeneralService를 상속받는 서비스를 생성
    1. 해당 서비스를 실행하려면 'Background Location'(ACCESS_BACKGROUND_LOCATION)과 'System Alert Window'(or Settings.ACTION_MANAGE_OVERLAY_PERMISSION) 권한이 필수
