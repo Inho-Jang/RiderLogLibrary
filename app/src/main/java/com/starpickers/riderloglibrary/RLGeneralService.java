@@ -597,7 +597,7 @@ public class RLGeneralService extends Service {
                 String status = mainPreferences.getString("STATUS", "stopped");
                 int managerID = mainPreferences.getInt("MANAGER_ID", 0);
                 int drivingID = mainPreferences.getInt("DRIVING_ID", -1);
-                sensorAddress = userInfoPreference.getString("CURRENT_CONNECTED", sensorAddress);
+                sensorAddress = userInfoPreference.getString("CURRENT_CONNECTED", "DEFAULT_ADDR");
                 if (!sensorAddress.equals("")) {
                     String removeColon = sensorAddress.replace(":", "");
                     rlServerService.writeDB(removeColon, IMUDATA, ATTITUDE, GNSS, AUTOCORRELATION, EVENTS, status, managerID, drivingID);
@@ -610,7 +610,7 @@ public class RLGeneralService extends Service {
         @Override
         public void run() {
             if (isTCPAvailable()) {
-                sensorAddress = userInfoPreference.getString("CURRENT_CONNECTED", sensorAddress);
+                sensorAddress = userInfoPreference.getString("CURRENT_CONNECTED", "DEFAULT_ADDR");
                 String phoneNum = userInfoPreference.getString("PHONE", "");
                 if (!sensorAddress.equals("")) {
                     String removeColon = sensorAddress.replace(":", "");
